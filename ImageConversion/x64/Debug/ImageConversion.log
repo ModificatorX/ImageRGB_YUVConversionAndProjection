@@ -1,0 +1,2 @@
+﻿  ImageConversion.cpp
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(536): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.

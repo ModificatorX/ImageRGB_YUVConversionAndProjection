@@ -1,0 +1,51 @@
+﻿  ImageConversion.cpp
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(56): warning C4101: outFile: неиспользованная локальная переменная
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(83): warning C4101: j: неиспользованная локальная переменная
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(83): warning C4101: read: неиспользованная локальная переменная
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(114): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(115): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(191): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(194): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(203): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(206): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(214): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(217): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(231): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(233): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(239): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(245): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(250): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(172): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(309): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(312): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(321): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(324): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(332): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(335): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(349): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(351): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(357): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(363): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(368): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(289): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(392): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(393): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(453): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(476): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(481): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(483): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(492): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(494): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(501): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(503): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(507): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(452): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+c:\users\modif_000\documents\visual studio 2017\projects\imageconversion\imageconversion\imageconversion.cpp(461): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+  ImageConversion.vcxproj -> C:\Users\modif_000\Documents\Visual Studio 2017\Projects\ImageConversion\Debug\ImageConversion.exe
+  ImageConversion.vcxproj -> C:\Users\modif_000\Documents\Visual Studio 2017\Projects\ImageConversion\Debug\ImageConversion.pdb (Partial PDB)

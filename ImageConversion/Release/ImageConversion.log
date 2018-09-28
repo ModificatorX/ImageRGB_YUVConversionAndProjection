@@ -1,0 +1,49 @@
+﻿  stdafx.cpp
+  ImageConversion.cpp
+F:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.25017\include\pthread.h(320): error C2011: timespec: переопределение типа "struct"
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\time.h(39): note:  см. объявление "timespec"
+ImageConversion.cpp(73): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+ImageConversion.cpp(127): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(128): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(204): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(207): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(216): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(219): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(227): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(230): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(244): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+ImageConversion.cpp(246): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(252): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(258): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(263): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+ImageConversion.cpp(185): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+ImageConversion.cpp(331): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(334): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(343): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(346): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(354): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(357): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(371): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+ImageConversion.cpp(373): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(379): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(385): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(390): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+ImageConversion.cpp(311): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+ImageConversion.cpp(415): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(416): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(476): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+ImageConversion.cpp(499): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+ImageConversion.cpp(504): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(506): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(515): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(517): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(524): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(526): warning C4018: <: несоответствие типов со знаком и без знака
+ImageConversion.cpp(530): warning C4244: аргумент: преобразование "double" в "::size_t", возможна потеря данных
+ImageConversion.cpp(475): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
+ImageConversion.cpp(484): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h(207): note:  см. объявление "fopen"
