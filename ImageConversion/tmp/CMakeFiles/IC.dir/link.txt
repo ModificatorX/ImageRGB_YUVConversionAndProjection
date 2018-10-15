@@ -1,3 +1,3 @@
 "F:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\IC.dir/objects.a
-F:\MinGw\bin\ar.exe cr CMakeFiles\IC.dir/objects.a @CMakeFiles\IC.dir\objects1.rsp
-F:\MinGw\bin\g++.exe  -pthread   -Wl,--whole-archive CMakeFiles\IC.dir/objects.a -Wl,--no-whole-archive  -o IC.exe -Wl,--out-implib,libIC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\IC.dir\linklibs.rsp
+F:\PROGRA~2\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe cr CMakeFiles\IC.dir/objects.a @CMakeFiles\IC.dir\objects1.rsp
+F:\PROGRA~2\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  -pthread   -Wl,--whole-archive CMakeFiles\IC.dir/objects.a -Wl,--no-whole-archive  -o IC.exe -Wl,--out-implib,libIC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\IC.dir\linklibs.rsp

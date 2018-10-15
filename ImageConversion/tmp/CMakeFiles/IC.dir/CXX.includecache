@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/modif_000/Documents/Visual Studio 2017/Projects/ImageConversion/ImageConversion/ImageConversion.cpp
+C:/Users/modif_000/Documents/Visual Studio 2017/Projects/ImageRGB_YUVConversionAndProjection/ImageConversion/ImageConversion.cpp
 stdafx.h
-C:/Users/modif_000/Documents/Visual Studio 2017/Projects/ImageConversion/ImageConversion/stdafx.h
+C:/Users/modif_000/Documents/Visual Studio 2017/Projects/ImageRGB_YUVConversionAndProjection/ImageConversion/stdafx.h
 windows.h
 -
 stdio.h
@@ -18,15 +18,15 @@ thread
 pthread.h
 -
 
-C:/Users/modif_000/Documents/Visual Studio 2017/Projects/ImageConversion/ImageConversion/stdafx.h
+C:/Users/modif_000/Documents/Visual Studio 2017/Projects/ImageRGB_YUVConversionAndProjection/ImageConversion/stdafx.h
 targetver.h
-C:/Users/modif_000/Documents/Visual Studio 2017/Projects/ImageConversion/ImageConversion/targetver.h
+C:/Users/modif_000/Documents/Visual Studio 2017/Projects/ImageRGB_YUVConversionAndProjection/ImageConversion/targetver.h
 stdio.h
 -
 tchar.h
 -
 
-C:/Users/modif_000/Documents/Visual Studio 2017/Projects/ImageConversion/ImageConversion/targetver.h
+C:/Users/modif_000/Documents/Visual Studio 2017/Projects/ImageRGB_YUVConversionAndProjection/ImageConversion/targetver.h
 SDKDDKVer.h
 -
 

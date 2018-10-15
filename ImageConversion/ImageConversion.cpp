@@ -11,8 +11,9 @@ using namespace std;
 //Размеры видео YUV
 const int videoHorRes = 1280;
 const int videoVerRes = 720;
+//odd number of threads isn't recommended due to anomalies
 //количество потоков приложения(для проверки быстродействия использовались картинки genie, genie_large и genie_extra; при нечётном числе потоков могут возникнуть аномалии в верхней половине изображения для варианта genie.bmp)
-const int numberOfThreads = 7;
+const int numberOfThreads = 8;
 
 struct BMPH
 {
@@ -55,6 +56,7 @@ struct Params
 
 
 void convertToYUV(unsigned char*, BMPII);
+//image convertation by blocks 
 void convertToYUVWThreads(unsigned char*, BMPII);
 
 void *blockConvert(void* arg);
@@ -123,6 +125,8 @@ void convertToYUV(unsigned char* rgbData, BMPII info)
 #pragma region converting
 	for (int j = 0; j < info.height; j += 2) {
 		for (int i = 0; i < info.width; i += 2) {
+			//Two rows are calculated simultaneously: for both of then Y-component is taken two times; meanwhile, U- and V-components are calculated from block of 4 pixels, located in those rows.
+
 			//Параллельно засчитываются значения для двух строк: в то время, как для Y-компоненты в массив заносится два значения для каждой строки, 
 			//U- и V-компоненты пополняются единожды за цикл в среднем по 4 взятым из оригинала пикселам. 
 			//Операции битового сдвига используются для более быстрого деления.
@@ -179,7 +183,9 @@ void convertToYUV(unsigned char* rgbData, BMPII info)
 	unsigned int summaryTime = clock() - initialTime;
 	printf("Converted in %d miliseconds\nPress any button to continue\n", summaryTime);
 	getchar();
-	FILE *out = fopen("test.yuv", "wb"); //открытие видео размера, указанного в соответствующих константах;
+	//video resolution is stated in constantes at the beginning of the program
+	//открытие видео размера, указанного в соответствующих константах;
+	FILE *out = fopen("test.yuv", "wb"); 
 	if (out == NULL) {
 		fprintf(stderr, "Error open file %s\nPress ENTER to exit\n",
 			"test.yuv");
@@ -408,6 +414,8 @@ void *blockConvert(void* arg)
 #pragma region converting
 	for (int j = 0; j < p->info.height / numberOfThreads - p->info.height / numberOfThreads % 4 + offset; j += 2) {
 		for (int i = 0; i < p->info.width; i += 2) {
+			//Two rows are calculated simultaneously: for both of then Y-component is taken two times; meanwhile, U- and V-components are calculated from block of 4 pixels, located in those rows.
+
 			//Параллельно засчитываются значения для двух строк: в то время, как для Y-компоненты в массив заносится два значения для каждой строки, 
 			//U- и V-компоненты пополняются единожды за цикл в среднем по 4 взятым из оригинала пикселам. 
 			//Операции битового сдвига используются для более быстрого деления.
